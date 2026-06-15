@@ -194,6 +194,8 @@ The Space demo provides a simple chat interface where you can type queries and s
 
 This section summarizes the training pipeline.
 
+![Training Pipeline](images/training_pipeline.png)
+
 ### 8.1 Model and Pretraining
 
 - **Architecture**: GPT-style decoder-only transformer, ~355M parameters (e.g., 16 layers, 12 heads, 1024-dim hidden).  
@@ -218,7 +220,7 @@ This section summarizes the training pipeline.
   - Fashion psychology and confidence (dressing for confidence, comfort vs style)
 
 - **Synthetic data generation**:  
-  - Use a stronger teacher model to generate **fashion Q&A pairs** guided by the topic taxonomy and parameterized prompts (age, gender, city, season, budget, body type).  
+  - Use a stronger teacher models (llama3.2 3B & GPT OSS 20B) to generate **fashion Q&A pairs** guided by the topic taxonomy and parameterized prompts (age, gender, city, season, budget, body type).  
   - Filter and balance the dataset to cover diverse scenarios.
 
 - **Forgetting-aware training**:  
