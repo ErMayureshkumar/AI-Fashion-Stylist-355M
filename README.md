@@ -178,8 +178,6 @@ print(chat(prompt))
 
 ## 7. Hugging Face Model and Demo Links
 
-> Replace the placeholders below with your actual URLs after you upload.
-
 - **Model (Hugging Face Hub)**  
   `HF_MODEL_LINK`  
   Example: <https://huggingface.co/ErMayureshKumar/ai-fashion-stylist-355m>
