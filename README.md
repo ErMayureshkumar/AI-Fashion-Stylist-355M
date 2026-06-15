@@ -194,7 +194,7 @@ The Space demo provides a simple chat interface where you can type queries and s
 
 This section summarizes the training pipeline.
 
-![Training Pipeline](images/training_pipeline.png)
+![Training Pipeline](images/training-pipeline.png)
 
 ### 8.1 Model and Pretraining
 
