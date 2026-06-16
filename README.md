@@ -205,7 +205,7 @@ This section summarizes the training pipeline.
 
 ### 8.2 Stage 1 – General Instruction Tuning
 
-- **Data**: Mixture of instruction-following and chat datasets (QA, explanations, basic reasoning, rewriting, etc.).  
+- **Data**: Mixture of instruction-following and chat datasets (QA, explanations, basic reasoning, etc.).  
 - **Format**: Unified instruction–input–response format, with loss computed only on assistant responses.  
 - **Objective**: Improve **chat ability**, instruction following, and general helpfulness.  
 - **Outcome**: A Stage-1 model that behaves as a small, general-purpose assistant.
