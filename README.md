@@ -179,12 +179,10 @@ print(chat(prompt))
 ## 7. Hugging Face Model and Demo Links
 
 - **Model (Hugging Face Hub)**  
-  `HF_MODEL_LINK`  
-  Example: <https://huggingface.co/ErMayureshKumar/ai-fashion-stylist-355m>
+  `HF_MODEL_LINK` : <https://huggingface.co/ErMayureshKumar/ai-fashion-stylist-355m>
 
 - **Interactive Demo (Hugging Face Space)**  
-  `HF_SPACE_LINK`  
-  Example: <https://huggingface.co/spaces/ErMayureshKumar/AI-Fashion-Stylist-355M>
+  `HF_SPACE_LINK` : <https://huggingface.co/spaces/ErMayureshKumar/AI-Fashion-Stylist-355M>
 
 The Space demo provides a simple chat interface where you can type queries and see model responses in the browser.
 
