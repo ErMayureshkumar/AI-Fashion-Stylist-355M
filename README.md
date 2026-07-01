@@ -196,7 +196,7 @@ This section summarizes the training pipeline.
 
 ### 8.1 Model and Pretraining
 
-- **Architecture**: GPT-style decoder-only transformer, ~355M parameters (e.g., 16 layers, 12 heads, 1024-dim hidden).  
+- **Architecture**: GPT-style decoder-only transformer, ~355M parameters (e.g., 24 layers, 16 heads, 1024-dim hidden).  
 - **Objective**: Causal language modeling on general text.  
 - **Data**: General-purpose text corpus (no fashion-specific data used in pretraining).  
 - **Goal**: Obtain a **domain-agnostic base LM** with solid language modeling capability.
